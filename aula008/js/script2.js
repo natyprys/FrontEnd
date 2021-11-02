@@ -3,6 +3,7 @@ window.onload = function(){
     let pessoa = []
     localStorage.setItem("pessoa", JSON.stringify(pessoa));
 }
+//coloco pra salvar convertido para json
 
 function salvar(event){
     event.preventDefault();
@@ -13,8 +14,13 @@ function salvar(event){
     if(idade.value >= 18){
         pessoa = { "nome": nome.value, "sobrenome": sobrenome.value, "idade": idade.value };
         let pessoas = JSON.parse(localStorage.getItem("pessoa"));
+        //.parse tira a conversao para JSON (para conseguir ler original. para usar o push)
+
         pessoas.push(pessoa);
+        //adicionando a lista
         localStorage.setItem("pessoa", JSON.stringify(pessoas));
+        //converte esse dado para JSON
+
     }else{
         alert('Sai fora de menor')
     }
