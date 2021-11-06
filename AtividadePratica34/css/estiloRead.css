@@ -1,0 +1,58 @@
+body{
+    background: rgb(128, 128, 219);
+    color: black;
+}
+
+div{
+    background: white;
+    width: 50%;
+    margin: 100px auto 100px auto;
+    padding: 20px, 50px;
+    text-align: center;
+}
+
+
+h1{
+    color:rgb(91, 91, 158);
+    text-transform: uppercase;
+}
+
+h2{
+    color:rgb(91, 91, 158);
+    text-transform: lowercase;
+    font-size: 20px;
+}
+
+table{
+    background:rgb(173, 173, 231);
+    width: 90%;
+    margin:40px auto 20px;
+    border-collapse: collapse;
+    /* para tirar o espaço da borda*/ 
+}
+
+table thead{
+    background: rgb(248, 248, 147);
+    border: 1px rgb(104, 103, 103) solid;
+    text-transform: uppercase;
+    height: 30px;
+    /*para aumentar o tamanho*/
+}
+table thead th{
+    border: 1px rgb(104, 103, 103) solid;
+}
+
+
+table tbody tr{
+    /* para trabalhar as linhas*/
+    height: 25px;
+    font-size: 14px;  
+}
+
+table tbody tr td{
+    padding: 8px 10px;
+    border: 1px rgb(104, 103, 103) solid;
+}
+
+
+
