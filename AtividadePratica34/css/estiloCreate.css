@@ -72,6 +72,12 @@ input[type="submit"]:hover{
  /* para ter a mãozinha ao passar no botão*/
 }
 
+.labels{
+    width: 25%;
+    text-align: left;
+    display: inline-block;
+}
+
 a{
     color: rgb(0, 38, 56);
     font-size: 15px;
@@ -80,9 +86,8 @@ a{
     /* para tirar o sublinhado */  
 }
 
-
-.labels{
-    width: 25%;
-    text-align: left;
-    display: inline-block;
+table{
+    color: rgb(26, 121, 145);
+    border: 1px solid black;
 }
+
