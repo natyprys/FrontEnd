@@ -1,4 +1,5 @@
 *{
+    /* Para todos os parametros serem ajustados */
     border: 0;
     margin: 0;
     padding: 0;
@@ -15,9 +16,13 @@ header{
     height: 80px;
     color: #fff;
     display: flex;
-    justify-content: space-between; /* Alinhamento horizontal*/
-    align-items: center;  /* Alinhamento Vertical*/
+    /* display- movimentar componentes */
+    justify-content: space-between; 
+    /* Alinhamento horizontal*/
+    align-items: center; 
+    /* Alinhamento Vertical*/
 }
+
 #logo{
     width: 80px;
     font-size: 18px;
@@ -30,20 +35,25 @@ header{
 nav ul{
     display: flex;
     list-style: none;
+    /* list-style- para tirar os pontinhos */
 }
+
 nav ul li{ 
     margin: 0 5px;
     cursor: pointer;
+    /*cursor: pointer- maozinha no cursor */
     text-align: center;
     line-height: 25px;
     width: 100px;
     padding: 5px 10px ;
     height: 25px;
     border-radius: 3px;
+    /*border-radius- deixar a borda do botão arredondada*/
     background: #fff;
     border: 1px solid #fff;
     color:#4B0E88;
 }
+
 nav ul li:hover{
     border: 1px solid #fff;
     color:#fff;
