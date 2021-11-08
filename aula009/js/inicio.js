@@ -10,3 +10,5 @@ function contato(){
     let frame = document.getElementById("frame");
     frame.src="contato.html"
 }
+
+//essas paginas são carregadas ao clicar 
