@@ -1,0 +1,65 @@
+*{
+    /* Para todos os parametros serem ajustados */
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(255, 245, 204);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header{
+    padding: 5px 2%;
+    width: 96%;
+    background: rgb(49, 200, 175);
+    height: 90px;
+    color: rgb(49, 200, 175);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{ 
+    margin: 0 5px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 25px;
+    width: 100px;
+    padding: 5px 10px ;
+    height: 25px;
+    border-radius: 3px;
+    background: rgb(255, 245, 204);
+    border: 1px solid #fff;
+    color: rgb(49, 200, 175);
+    align-items: unset ;
+}
+
+
+nav ul li:hover{
+    border: 1px solid #fff;
+    color: rgb(255, 245, 204);
+    background :rgb(49, 200, 175);
+}
+
+
+main{
+    width: 80%;
+    margin: 50px auto;
+    background: #fff;
+    height: 600px;
+}
+
+footer{
+    width: 100%;
+    background: rgb(147, 223, 210);
+    height: 100px;
+}
